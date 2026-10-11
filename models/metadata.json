@@ -1,0 +1,34 @@
+{
+  "model_type": "xgboost",
+  "mlflow_run_id": "49e3f97687f04b338f819fee9ba0efaa",
+  "registered_model": "telco-churn-model v1",
+  "metrics": {
+    "cv_roc_auc": 0.8484,
+    "test_accuracy": 0.753,
+    "test_precision": 0.5227,
+    "test_recall": 0.7995,
+    "test_f1": 0.6321,
+    "test_roc_auc": 0.8456
+  },
+  "features": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "SeniorCitizen",
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ]
+}
