@@ -1,4 +1,4 @@
-"""Trains churn models, tracks every run in MLflow, and exports the best model for the API."""
+"""Trains churn models, tracks every run in MLflow, and export the best model for the API."""
 
 import json
 import os
